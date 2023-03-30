@@ -27,7 +27,7 @@ jobs:
         git checkout 4.5.0
         export oldtag4_5_0=$(yq -r .services.rs.image Docker-Swarm-deployment/single-node/resource-server/rs-stack.yaml | cut -d : -f 2)      
         git config --global user.name 'tharak-ram1'
-        git config --global user.email "tharak.ram@datakaveri.org"
+        git config --global user.email "tharakramdasari@gmail.com"
 
 
 
