@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
-       repository: datakaveri/iudx-deployment
+       repository: tharak-ram1/iudx-deployment
        token: "${{ secrets.JENKINS_UPDATE }}"
        fetch-depth: 0
     - name: Update RS docker image tags
